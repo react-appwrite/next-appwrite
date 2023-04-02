@@ -1,22 +1,22 @@
-const Client = require('./lib/client.js');
-const Query = require('./lib/query.js');
-const Permission = require('./lib/permission.js');
-const Role = require('./lib/role.js');
-const ID = require('./lib/id.js');
-const InputFile = require('./lib/inputFile.js');
-const AppwriteException = require('./lib/exception.js');
-const Account = require('./lib/services/account.js');
-const Avatars = require('./lib/services/avatars.js');
-const Databases = require('./lib/services/databases.js');
-const Functions = require('./lib/services/functions.js');
-const Graphql = require('./lib/services/graphql.js');
-const Health = require('./lib/services/health.js');
-const Locale = require('./lib/services/locale.js');
-const Storage = require('./lib/services/storage.js');
-const Teams = require('./lib/services/teams.js');
-const Users = require('./lib/services/users.js');
+import Client from './lib/client.js';
+import Query from './lib/query.js';
+import Permission from './lib/permission.js';
+import Role from './lib/role.js';
+import ID from './lib/id.js';
+import InputFile from './lib/inputFile.js';
+import AppwriteException from './lib/exception.js';
+import Account from './lib/services/account.js';
+import Avatars from './lib/services/avatars.js';
+import Databases from './lib/services/databases.js';
+import Functions from './lib/services/functions.js';
+import Graphql from './lib/services/graphql.js';
+import Health from './lib/services/health.js';
+import Locale from './lib/services/locale.js';
+import Storage from './lib/services/storage.js';
+import Teams from './lib/services/teams.js';
+import Users from './lib/services/users.js';
 
-module.exports = {
+export default {
     Client,
     Query,
     Permission,

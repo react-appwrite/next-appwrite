@@ -5,6 +5,7 @@
   "version": "8.2.0",
   "license": "BSD-3-Clause",
   "main": "./index.js",
+  "type": "module",
   "types": "./index.d.ts",
   "repository": {
     "type": "git",

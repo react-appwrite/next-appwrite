@@ -6,6 +6,7 @@
   "license": "BSD-3-Clause",
   "main": "./index.js",
   "type": "module",
+  "module": "./index.js",
   "types": "./index.d.ts",
   "repository": {
     "type": "git",
